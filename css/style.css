@@ -1,0 +1,29 @@
+[data-rakesh="rakesh"]{
+     /* State 1 */
+    width: 400px;
+    height:400px;
+    background:red;
+    border:10px solid #000;
+    /* 
+    margin:T/R/B/L;
+
+    margin:T/B L/R
+    */
+    margin:200px auto;
+    transform: scale(1,1) rotate(0deg) translate(0px,0px);
+    /*
+    transition: property duration timing-function delay|initial|inherit;
+    */
+    transition:all 0.5s linear;
+}
+
+/*
+    element:hover{
+        property:value;
+    }
+*/
+
+[data-rakesh="rakesh"]:hover{
+    /* State 2 */
+    transform: scale(1.5,1.5) rotate(45deg) translate(100px,0px);
+} 
